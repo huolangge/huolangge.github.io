@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[到处玩的聪哥]]></title>
+  <title><![CDATA[到处玩的]]></title>
   <subtitle><![CDATA[纵马江湖道，今生任逍遥！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
@@ -8,7 +8,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name><![CDATA[huolangge]]></name>
+    <name><![CDATA[到处玩的]]></name>
     
   </author>
   
