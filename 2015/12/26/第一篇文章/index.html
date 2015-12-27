@@ -68,7 +68,7 @@
     <link rel="alternative" href="/atom.xml" title="到处玩的" type="application/atom+xml">
   
   
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   
   <link rel="stylesheet" href="/css/style.css" type="text/css">
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
@@ -162,7 +162,9 @@
                             
                                 <li id="Email"><a class="Email" target="_blank" href="/huolangge@126.com" title="Email"></a></li>
                             
-                                <li id="GitHub"><a class="GitHub" target="_blank" href="/#" title="GitHub"></a></li>
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/conggeaifenxiang" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="https://github.com/huolangge" title="GitHub"></a></li>
                             
                                 <li id="RSS"><a class="RSS" target="_blank" href="/atom.xml" title="RSS"></a></li>
                             
@@ -240,7 +242,9 @@
                             
                                 <li id="Email"><a class="Email" target="_blank" href="/huolangge@126.com" title="Email"></a></li>
                             
-                                <li id="GitHub"><a class="GitHub" target="_blank" href="/#" title="GitHub"></a></li>
+                                <li id="新浪微博"><a class="新浪微博" target="_blank" href="http://weibo.com/conggeaifenxiang" title="新浪微博"></a></li>
+                            
+                                <li id="GitHub"><a class="GitHub" target="_blank" href="https://github.com/huolangge" title="GitHub"></a></li>
                             
                                 <li id="RSS"><a class="RSS" target="_blank" href="/atom.xml" title="RSS"></a></li>
                             
@@ -419,6 +423,22 @@
     }
 </script>
 
+
+    <style>
+        .toc {
+            white-space: nowrap;
+            overflow-x: hidden;
+        }
+    </style>
+
+    <script>
+        $(document).ready(function() {
+            $(".toc li a").mouseover(function() {
+                var title = $(this).attr('href');
+                $(this).attr("title", title);
+            });
+        })
+    </script>
 
 
 
